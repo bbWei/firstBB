@@ -1,0 +1,23 @@
+<!-- 侧边栏 -->
+<div class="content">
+    <!-- 侧边栏 -->
+    <div class="aside fl">
+        <ul class="menu list-unstyled">
+            <li id="user">
+                <a class="item {{currentLink == 'user' ? 'active' : ''}}" href="/admin/user">
+                    <span class="icon-user iconfont"></span>
+                    用户管理
+                </a>
+            </li>
+            <li id="article">
+                <a class="item {{currentLink == 'article' ? 'active' : ''}}" href="/admin/article">
+                    <span class="icon-file-delete iconfont"></span>
+                    文章管理
+                </a>
+            </li>
+        </ul>
+        <div class="cprt">
+            Copyright by <a href="javascript:;">Radish</a>
+        </div>
+    </div>
+<!-- 侧边栏 -->

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    {{block 'title'}}{{/block}}
+    
+    {{block 'link'}}{{/block}}
+
+    <link rel="stylesheet" href="/admin/css/iconfont.css">
+    <link rel="stylesheet" href="/admin/css/base.css">
+    
+    {{block 'script'}}{{/block}}
+
+    <script src="/admin/js/header.js"></script>
+</head>
+
+<body>
+    {{block 'main'}}{{/block}}
+</body>  
+</html>

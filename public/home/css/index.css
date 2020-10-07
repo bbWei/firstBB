@@ -1,0 +1,69 @@
+/*  文章列表 */
+.list{
+    width: 100%;
+    /* min-width: 1100px; */
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+.list li{
+    width: 530px;
+    height: 430px;
+    background: #FFF;
+    margin-top:30px;
+    /* justify-content: space-around; */
+    box-shadow: 2px 2px 5px #c7bdbd;
+}
+li .thumbnail,
+li .thumbnail img{
+    display: block;
+    width: 530px;
+    height: 240px;
+}
+li .thumbnail img {
+    background-size: cover;
+}
+.content{
+    height: 180px;
+    padding: 10px 21px 35px 20px;
+}
+.article-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.article-info{
+    margin-top:16px;
+}
+.author{
+    color:#ff8952;
+}
+.author::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 0px 7px;
+    background-color: #3f434c;
+}
+.brief{
+    text-indent: 2em;
+    font-size: 14px;
+	line-height: 24px;
+	margin-top: 20px;
+}
+/* 分页 */
+.page {
+	padding: 30px 0;
+	font-size: 0;
+	text-align: center;
+}
+.page a {
+	font-size: 14px;
+	margin: 0 8px;
+}
+.page .active {
+	color: #ff7300;
+}
